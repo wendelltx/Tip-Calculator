@@ -1,0 +1,57 @@
+# Compilacao e caches
+.gradle/
+**/build/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Configuracoes locais
+local.properties
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# Arquivos temporarios
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Chaves de assinatura
+*.jks
+*.keystore
+*.hprof
+
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.properties
+
+# Pacotes gerados
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Arquivos do sistema e IDE
+.kotlin/
+.project
+.classpath
+.settings/
+.vscode/
+
+# Saidas adicionais
+out/
+bin/
+obj/
